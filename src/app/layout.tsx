@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Wrapper from "./_component/Wrapper";
 import Header from "./_component/Header";
+import FixedOverlay from "./_component/FixedOverlay";
+import Headerv2 from "./_component/Headerv2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} h-full bg-white font-sans text-gray-900 antialiased`}>
+        <FixedOverlay />
         <Wrapper>
           <Header />
+          {/* <Headerv2 /> */}
           {children}
         </Wrapper>
         </body>

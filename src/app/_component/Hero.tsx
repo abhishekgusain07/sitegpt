@@ -1,6 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
+
+const Benefits = ['Personalized onboarding help', 'Friendly pricing as you scale', '95+ languages supported', '7-day free trial', 'Cancel anytime'];
+const Companies = ['alignable', 'screen-binge', 'sheets-giggles', 'cbs-bahamas', 'link-research-tools'];
 const Hero = () =>  {
     return (
         <section className="bg-gradient-to-b from-white to-blue-50 pb-12 pt-8 sm:pb-16 lg:pb-20">
@@ -21,7 +24,7 @@ const Hero = () =>  {
               It's like having ChatGPT specifically for your SaaS product. Instantly answer your visitors' questions with a personalized chatbot trained on your website content.
             </p>
             <ul className="flex flex-col justify-center gap-x-6 gap-y-3 text-sm font-medium text-gray-900 mt-6 sm:flex-row sm:flex-wrap sm:mt-8 lg:justify-start">
-              {['Personalized onboarding help', 'Friendly pricing as you scale', '95+ languages supported', '7-day free trial', 'Cancel anytime'].map((item, index) => (
+              {Benefits.map((item, index) => (
                 <li key={index} className="flex items-center justify-center gap-2">
                   <svg aria-hidden="true" className="h-5 w-5 shrink-0 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
                     <path d="M176.49,95.51a12,12,0,0,1,0,17l-56,56a12,12,0,0,1-17,0l-24-24a12,12,0,1,1,17-17L112,143l47.51-47.52A12,12,0,0,1,176.49,95.51ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128Z"></path>
@@ -48,7 +51,7 @@ const Hero = () =>  {
         <div className="max-w-5xl mx-auto mt-16 text-center lg:mt-20">
           <p className="text-base font-semibold text-gray-900">Trusted by these leading companies</p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 mt-4 sm:mt-6 lg:gap-x-8">
-            {['alignable', 'screen-binge', 'sheets-giggles', 'cbs-bahamas', 'link-research-tools'].map((company, index) => (
+            {Companies.map((company, index) => (
               <Image
                 key={index}
                 className="h-12 w-auto object-contain mix-blend-multiply sm:h-14"

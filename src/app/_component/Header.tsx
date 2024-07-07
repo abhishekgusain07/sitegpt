@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-const options = ['Features', 'Integrations', 'Pricing', 'Live Demo'];
+const options = ['Features', 'Integrations', 'Pricing', 'Live Demo', 'Blog'];
 const Header = () => {
     return (
         <header className="sticky z-50 bg-white/90 backdrop-blur-lg inset-x-0 top-0 border-b border-gray-100 py-3">
@@ -28,19 +28,11 @@ const Header = () => {
                         {item}
                     </Link>
                     ))}
-                    <a
-                    href="/blog"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm font-semibold leading-5 text-gray-950 transition-all duration-150 rounded-lg px-2 py-1.5 hover:bg-gray-100 hover:text-blue-600"
-                    >
-                    Blog
-                    </a>
                 </div>
                 <div className="flex items-center justify-end gap-4">
                     <Link
                     href="/partners"
-                    className="hidden items-center justify-center bg-white text-sm font-semibold leading-5 text-blue-600 shadow-sm ring-1 ring-inset ring-blue-600 transition-all duration-150 rounded-lg px-3 py-1.5 hover:bg-blue-50 sm:inline-flex"
+                    className="hidden items-center justify-center bg-white text-sm font-semibold leading-5 text-blue-600 shadow-xl ring-1 ring-inset ring-blue-600 transition-all duration-150 rounded-lg px-3 py-1.5 hover:bg-blue-50 sm:inline-flex"
                     >
                     Become a partner
                     </Link>

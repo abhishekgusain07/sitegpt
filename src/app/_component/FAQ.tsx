@@ -77,7 +77,7 @@ const FAQ  = () => {
         <div>
           <p>GPT-4 messages are 10 times costlier than GPT-3.5 messages.</p>
           <p>
-            For example, let's take <strong>$99/mo Growth plan</strong>.<br />
+            For example, let&apos;s take <strong>$99/mo Growth plan</strong>.<br />
             In this plan, you get <strong>10k messages per month</strong> if you use <strong>GPT-3.5</strong>.<br />
             But if you use <strong>GPT-4</strong>, then you only get <strong>1k messages per month</strong>.<br />
             You can also use a combination of both <strong>GPT-3.5</strong> and <strong>GPT-4</strong> if you want.

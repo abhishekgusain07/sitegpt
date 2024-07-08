@@ -32,7 +32,7 @@ const Header = () => {
                 <div className="flex items-center justify-end gap-4">
                     <Link
                     href="/partners"
-                    className="hidden items-center justify-center bg-white text-sm font-semibold leading-5 text-blue-600 shadow-xl ring-1 ring-inset ring-blue-600 transition-all duration-150 rounded-lg px-3 py-1.5 hover:bg-blue-50 sm:inline-flex"
+                    className="hidden items-center justify-center bg-white text-sm font-semibold leading-5 text-blue-600 shadow-sm ring-1 ring-inset ring-blue-600 transition-all duration-150 rounded-lg px-3 py-1.5 hover:bg-blue-50 sm:inline-flex"
                     >
                     Become a partner
                     </Link>

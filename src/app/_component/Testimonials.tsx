@@ -26,25 +26,25 @@ const Testimonials = () => {
       quote: "\"SiteGPT appears to be first really production ready support solution that allows custom training, while so many others break or simply lack functionality. (we have tested and trialed MANY in the past 3 months)\"",
       name: "Christoph C. Cemper",
       title: "Founder & CEO of AIPRM.com",
-      imageSrc: "/images/testimonials/christoph.jpeg"
+      imageSrc: "https://sitegpt.ai/images/testimonials/christoph.jpeg"
     },
     {
       quote: "\"Other than the obvious benefits of using SiteGPT, we are getting user feedback/feature requests - it's only day 1 of using the SiteGPT bot.\"",
       name: "Akhil Kundh",
       title: "Growth at CheqUptime",
-      imageSrc: "/images/testimonials/akhil.jpeg"
+      imageSrc: "https://sitegpt.ai/images/testimonials/akhil.jpeg"
     },
     {
       quote: "\"We've got the bot dialled in - we're using GPT-4, have an avenue for escalations to Zendesk, and so far I have no complaints.\"",
       name: "Brent Burrows II",
       title: "Vice President – Retail & Sales at CBS Bahamas",
-      imageSrc: "/images/testimonials/brent.jpeg"
+      imageSrc: "https://sitegpt.ai/images/testimonials/brent.jpeg"
     },
     {
       quote: "\"Every now and then, you stumble on a great solution. SiteGPT is like I imagined a chatbot solution could be a few years back.\"",
       name: "Frank Smit",
       title: "Chief Innovation Officer at OBI4wan",
-      imageSrc: "/images/testimonials/frank.jpeg"
+      imageSrc: "https://sitegpt.ai/images/testimonials/frank.jpeg"
     }
   ];
 

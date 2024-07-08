@@ -3,7 +3,25 @@ import Link from "next/link"
 
 
 const Benefits = ['Personalized onboarding help', 'Friendly pricing as you scale', '95+ languages supported', '7-day free trial', 'Cancel anytime'];
-const Companies = ['alignable', 'screen-binge', 'sheets-giggles', 'cbs-bahamas', 'link-research-tools'];
+const Companies = [
+  {
+    name: 'alignable',
+    imageSrc: 'https://sitegpt.ai/images/customer-logos/alignable.png'
+  },{
+    name: 'screen-binge',
+    imageSrc: 'https://sitegpt.ai/images/customer-logos/screen-binge.png'
+  },{
+    name: 'sheets-giggles',
+    imageSrc: 'https://sitegpt.ai/images/customer-logos/sheets-giggles.png'
+  },{
+    name: 'cbs-bahamas',
+    imageSrc: 'https://sitegpt.ai/images/customer-logos/cbs-bahamas.png'
+  },
+  {
+    name: 'link-research-tools',
+    imageSrc: 'https://sitegpt.ai/images/customer-logos/link-research-tools.png'
+  }
+]
 const Hero = () =>  {
     return (
         <section className="bg-gradient-to-b from-white to-blue-50 pb-12 pt-8 sm:pb-16 lg:pb-20">
@@ -55,7 +73,7 @@ const Hero = () =>  {
               <Image
                 key={index}
                 className="h-12 w-auto object-contain mix-blend-multiply sm:h-14"
-                src={`/images/customer-logos/${company}.png`}
+                src={company.imageSrc}
                 alt=""
                 width={168}
                 height={56}

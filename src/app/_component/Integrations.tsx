@@ -18,7 +18,7 @@ const Integrations= () => {
         <div className="max-w-4xl mx-auto mt-12 sm:mt-16">
           <img 
             className="w-full object-cover" 
-            src="/images/integrations.svg" 
+            src="https://sitegpt.ai/images/integrations.svg" 
             alt="Integrations illustration"
           />
         </div>

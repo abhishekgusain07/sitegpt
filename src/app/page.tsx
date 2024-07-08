@@ -10,12 +10,14 @@ import Demo from "./_component/Demo";
 import Testimonials from "./_component/Testimonials";
 import FAQ from "./_component/FAQ";
 import CTA from "./_component/CTA";
+import Video from "./_component/Video";
 
 export default function Home() {
   return (
     <div>
       <main>
         <Hero />
+        <Video />
         <Imagine />
         <Comparison />
         <HowItWorks /> 

@@ -272,7 +272,6 @@ const FAQ  = () => {
             .filter((faq) => faq.category === activeCategory)
             .map((faq, index) => (
               <div className='realtive' key={index}>
-                <span className='relative z-10'>
                 <div key={index} className="flow-root">
                   <div className="divide-gray-200 -my-6 divide-y">
                     <div className="relative py-6">
@@ -302,8 +301,6 @@ const FAQ  = () => {
                     </div>
                   </div>
                 </div>
-                </span>
-                <div className="absolute left-0 right-0 bottom-0 h-0.5 bg-gray-200"></div>
               </div>
             ))}
         </div>

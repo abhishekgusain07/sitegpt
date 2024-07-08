@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
         dangerouslyAllowSVG: true,
-        domains: ['sitegpt.ai']
+        domains: ['sitegpt.ai','embed-ssl.wistia.com', 'fast.wistia.com']
     }
 };
 

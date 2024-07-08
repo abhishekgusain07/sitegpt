@@ -17,7 +17,7 @@ const Hero = () =>  {
                 alt="SiteGPT - ChatGPT for every website | Product Hunt"
               />
             </div>
-            <h1 className="font-display text-4xl font-bold tracking-tight text-gray-900 mt-8 sm:text-5xl lg:text-6xl xl:pr-12">
+            <h1 className="font-display text-4xl font-bold tracking-wide text-gray-900 mt-8 sm:text-5xl lg:text-6xl xl:pr-12">
               Make <span className="text-blue-600">AI</span> your expert customer <span className="text-blue-600">support agent</span>
             </h1>
             <p className="text-base font-normal text-gray-700 mt-5 sm:text-lg lg:text-xl">

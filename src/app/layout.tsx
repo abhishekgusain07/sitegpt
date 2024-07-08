@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Wrapper from "./_component/Wrapper";
-import Header from "./_component/Header";
 import FixedOverlay from "./_component/FixedOverlay";
-import Headerv2 from "./_component/Headerv2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full scroll-smooth bg-white scroll-pt-[3.5625rem]">
       <body className={`${inter.className} h-full bg-white font-sans text-gray-900 antialiased`}>
         <FixedOverlay />
         <Wrapper>
-          <Header />
           {/* <Headerv2 /> */}
           {children}
         </Wrapper>

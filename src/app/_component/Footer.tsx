@@ -13,7 +13,7 @@ const Footer = () => {
               </a>
             </Link>
             <p className=" font-normal text-gray-900 mt-6 text-base pr-6">
-              Instantly answer your visitors' questions with a personalized chatbot trained on your website content.
+              Instantly answer your visitor&apos;s questions with a personalized chatbot trained on your website content.
             </p>
             <div className="inline-flex items-center justify-center transition-all duration-150 mt-6 hover:-translate-y-1 hover:shadow-md lg:justify-start">
               <img

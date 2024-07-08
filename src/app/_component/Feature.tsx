@@ -1,4 +1,4 @@
-import React from 'react';
+import React from react;
 
 interface FeatureProps {
   title: string;
@@ -27,7 +27,7 @@ const Features = () => {
     {
       title: "Personalized Chatbot",
       heading: "Build a custom chatbot trained on your own content",
-      description: "Ever wanted to clone yourself to answer customer queries? Now you can! Train your chatbot with your content and let it echo your brand's voice. Who knew a chatbot could be your digital doppelgänger?",
+      description: "Ever wanted to clone yourself to answer customer queries? Now you can! Train your chatbot with your content and let it echo your brands voice. Who knew a chatbot could be your digital doppelgänger?",
       imageSrc: "https://sitegpt.ai/images/features/feature-1.svg"
     },
     {
@@ -39,7 +39,7 @@ const Features = () => {
     {
       title: "Email Summaries",
       heading: "Stay up to date with daily email summaries",
-      description: "Keep a pulse on chatbot interactions with daily summaries delivered to your inbox. Upload more training data where needed, track the chatbot's performance, and gain insights into user behavior.",
+      description: "Keep a pulse on chatbot interactions with daily summaries delivered to your inbox. Upload more training data where needed, track the chatbots performance, and gain insights into user behavior.",
       imageSrc: "https://sitegpt.ai/images/features/feature-3.svg"
     },
     {
@@ -51,7 +51,7 @@ const Features = () => {
     {
       title: "Collect Leads",
       heading: "Generate leads to follow up with later",
-      description: "Don't just answer questions, seize opportunities. Our chatbot captures interested visitors' details, allowing you to build a list of potential leads.",
+      description: "Dont just answer questions, seize opportunities. Our chatbot captures interested visitors details, allowing you to build a list of potential leads.",
       imageSrc: "https://sitegpt.ai/images/features/feature-5.svg"
     },
     {

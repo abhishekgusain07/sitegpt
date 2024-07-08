@@ -14,7 +14,7 @@ const HowItWorks = () => {
 const Header = () => (
   <div className="max-w-xl mx-auto text-center lg:max-w-3xl">
     <h2 className="font-display text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl p-8">
-      You're <span className="text-blue-600">three easy steps</span> away from your own personalized AI support chatbot
+      You&apos;re <span className="text-blue-600">three easy steps</span> away from your own personalized AI support chatbot
     </h2>
   </div>
 );

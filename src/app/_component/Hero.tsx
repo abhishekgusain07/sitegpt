@@ -39,7 +39,7 @@ const Hero = () =>  {
               Make <span className="text-blue-600">AI</span> your expert customer <span className="text-blue-600">support agent</span>
             </h1>
             <p className="text-base font-normal text-gray-700 mt-5 sm:text-lg lg:text-xl px-4">
-              It's like having ChatGPT specifically for your SaaS product. Instantly answer your visitors' questions with a personalized chatbot trained on your website content.
+              It&apos;s like having ChatGPT specifically for your SaaS product. Instantly answer your visitor&apos;s questions with a personalized chatbot trained on your website content.
             </p>
             <ul className="flex flex-col justify-center gap-x-6 gap-y-3 text-sm font-medium text-gray-900 mt-6 sm:flex-row sm:flex-wrap sm:mt-8 lg:justify-start">
               {Benefits.map((item, index) => (

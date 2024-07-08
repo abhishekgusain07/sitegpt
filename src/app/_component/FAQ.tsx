@@ -180,7 +180,7 @@ const FAQ  = () => {
     },
     {
       question: "Can I have the SiteGPT on Whatsapp? Do you have Whatsapp Integration?",
-      answer: <span>No. We currently don't have any kind of integration with Whatsapp. But if this something that you want, please reach out to us at <code className="bg-gray-100 p-1 rounded">bhanu@sitegpt.ai</code> and we can figure out a custom plan for you and build the integration for you based on your needs.</span>,
+      answer: <span>No. We currently don&apos;t have any kind of integration with Whatsapp. But if this something that you want, please reach out to us at <code className="bg-gray-100 p-1 rounded">bhanu@sitegpt.ai</code> and we can figure out a custom plan for you and build the integration for you based on your needs.</span>,
       category: "technology-and-integrations"
     },
     {
@@ -241,11 +241,11 @@ const FAQ  = () => {
         <div className="max-w-xl mx-auto text-center lg:max-w-3xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">FAQs</h2>
           <p className="text-base font-normal text-gray-600 mt-4 sm:text-lg">
-            Have a different question and can't find the answer you're looking for? Reach out to our support team by{' '}
+            Have a different question and can&apos;t find the answer you&apos;re looking for? Reach out to our support team by{' '}
             <Link href="mailto:bhanu@sitegpt.ai" className="text-blue-600 hover:text-blue-500 hover:underline">
               sending us an email
             </Link>{' '}
-            and we'll get back to you as soon as we can.
+            and we&apos;ll get back to you as soon as we can.
           </p>
         </div>
 

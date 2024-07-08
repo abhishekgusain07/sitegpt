@@ -25,7 +25,7 @@ const BeforeCard = () => {
             Fickle, one-size-fits-all chatbots that do more harm than good
           </h3>
           <ul className="text-base text-gray-900 mt-6 space-y-3 sm:text-lg">
-            <li>Generic GPT tools don't answer based on your training data</li>
+            <li>Generic GPT tools don&apos;t answer based on your training data</li>
             <li>Custom-built bots are finicky and difficult to maintain</li>
             <li>Customer support staff takes 3+ months to train</li>
             <li>Bogged down with support tickets</li>

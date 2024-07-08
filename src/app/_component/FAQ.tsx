@@ -271,30 +271,39 @@ const FAQ  = () => {
           {faqs
             .filter((faq) => faq.category === activeCategory)
             .map((faq, index) => (
-              <div key={index} className="flow-root">
-                <div className="divide-gray-200 -my-6 divide-y">
-                  <div className="relative py-6">
-                    <details className="group">
-                      <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-gray-900 pr-16">
-                        {faq.question}
-                        <span className="absolute right-0 top-0 py-7 pl-7 pr-0">
-                          <svg
-                            aria-hidden="true"
-                            className="h-5 w-5 transition-transform group-open:rotate-180"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 256 256"
-                          >
-                            <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z" />
-                          </svg>
-                        </span>
-                      </summary>
-                      <div className="mt-4">
-                        <p className="text-base text-gray-600">{faq.answer}</p>
-                      </div>
-                    </details>
+              <div className='realtive' key={index}>
+                <span className='relative z-10'>
+                <div key={index} className="flow-root">
+                  <div className="divide-gray-200 -my-6 divide-y">
+                    <div className="relative py-6">
+                      <details className="menu-details peer cursor-pointer transition-all duration-150 group">
+                        <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-gray-900 pr-16">
+                          {faq.question}
+                          <span className="absolute right-0 top-0 py-7 pl-7 pr-0">
+                            <svg
+                              aria-hidden="true"
+                              className="h-5 w-5 transition-transform group-open:rotate-180"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 256 256"
+                            >
+                              <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z" />
+                            </svg>
+                          </span>
+                        </summary>
+                        <div className="mt-4">
+                          <p className="text-base text-gray-600">
+                            <span className='text-base leading-7'>
+                            {faq.answer}
+                            </span>
+                          </p>
+                        </div>
+                      </details>
+                    </div>
                   </div>
                 </div>
+                </span>
+                <div className="absolute left-0 right-0 bottom-0 h-0.5 bg-gray-200"></div>
               </div>
             ))}
         </div>

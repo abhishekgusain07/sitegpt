@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="col-span-2 shrink-0 md:col-span-3">
             <Link href="/" aria-current="page" legacyBehavior>
               <a className="isomorphic-link isomorphic-link--internal">
-                <img className="h-8 w-auto" src="/images/logo-full.svg" alt="" />
+                <img className="h-8 w-auto" src="https://sitegpt.ai/cdn-cgi/imagedelivery/hQTLE0NTlcNyb_tOYFnnyA/e3888de9-3054-40f4-6699-889189a48500/square" alt="" />
               </a>
             </Link>
-            <p className=" font-normal text-gray-900 mt-6 text-base px-6">
+            <p className=" font-normal text-gray-900 mt-6 text-base pr-6">
               Instantly answer your visitors' questions with a personalized chatbot trained on your website content.
             </p>
             <div className="inline-flex items-center justify-center transition-all duration-150 mt-6 hover:-translate-y-1 hover:shadow-md lg:justify-start">

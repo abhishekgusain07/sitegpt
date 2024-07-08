@@ -23,13 +23,13 @@ const Testimonial = ({ quote, name, title, imageSrc }:TestimonialProps) => (
 const Testimonials = () => {
   const testimonials: TestimonialProps[] = [
     {
-      quote: "\"SiteGPT appears to be first really production ready support solution that allows custom training, while so many others break or simply lack functionality. (we have tested and trialed MANY in the past 3 months)\"",
+      quote: `\"SiteGPT appears to be first really production ready support solution that allows custom training, while so many others break or simply lack functionality. (we have tested and trialed MANY in the past 3 months)\"`,
       name: "Christoph C. Cemper",
       title: "Founder & CEO of AIPRM.com",
       imageSrc: "https://sitegpt.ai/images/testimonials/christoph.jpeg"
     },
     {
-      quote: "\"Other than the obvious benefits of using SiteGPT, we are getting user feedback/feature requests - it's only day 1 of using the SiteGPT bot.\"",
+      quote: `\"Other than the obvious benefits of using SiteGPT, we are getting user feedback/feature requests - it's only day 1 of using the SiteGPT bot.\"`,
       name: "Akhil Kundh",
       title: "Growth at CheqUptime",
       imageSrc: "https://sitegpt.ai/images/testimonials/akhil.jpeg"
@@ -56,7 +56,7 @@ const Testimonials = () => {
             Customer testimonials
           </p>
           <h2 className="font-display text-3xl font-bold tracking-tight text-gray-900 mt-4 sm:text-4xl sm:mt-6 lg:text-5xl">
-            Don't just take our word for it
+            Don&apos;t just take our word for it
           </h2>
         </div>
         <div className="grid max-w-xl grid-cols-1 gap-x-16 gap-y-12 mx-auto mt-12 text-center sm:mt-16 sm:text-left lg:max-w-none lg:grid-cols-2 lg:mx-0">

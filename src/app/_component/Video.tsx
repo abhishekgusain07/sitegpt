@@ -25,48 +25,38 @@ const Video = () => {
                 zIndex: 50,
                 }}
             >
-                <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
-                <div
-                    style={{
-                    height: "100%",
-                    left: 0,
-                    position: "absolute",
-                    top: 0,
-                    width: "100%",
-                    }}
-                >
+                <div className="w-full h-full relative -z-50">
                     <div
-                    className="wistia_embed wistia_async_au1iuqp2bn seo=true videoFoam=true"
-                    style={{ height: "100%", position: "relative", width: "100%" }}
+                        className="wistia_embed wistia_async_au1iuqp2bn seo=true videoFoam=true"
+                        style={{ height: "100%", width: "100%" }}
                     >
-                    <div
-                        style={{
-                        height: "100%",
-                        left: 0,
-                        opacity: 0,
-                        overflow: "hidden",
-                        position: "absolute",
-                        top: 0,
-                        transition: "opacity 200ms",
-                        width: "100%",
-                        }}
-                    >
-                        <Image
-                        src="https://fast.wistia.com/embed/medias/au1iuqp2bn/swatch"
-                        style={{
-                            filter: "blur(5px)",
+                        <div
+                            style={{
                             height: "100%",
-                            objectFit: "contain",
+                            left: 0,
+                            opacity: 0,
+                            overflow: "hidden",
+                            position: "absolute",
+                            top: 0,
+                            transition: "opacity 200ms",
                             width: "100%",
-                        }}
-                        width={100}
-                        height={100}
-                        alt=""
-                        aria-hidden="true"
-                        />
+                            }}
+                        >
+                            <Image
+                            className="-z-50"
+                            src="https://fast.wistia.com/embed/medias/au1iuqp2bn/swatch"
+                            style={{
+                                filter: "blur(5px)",
+                                height: "100%",
+                                objectFit: "cover",
+                                width: "100%",
+                            }}
+                            layout="fill"
+                            alt=""
+                            aria-hidden="true"
+                            />
+                        </div>
                     </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>

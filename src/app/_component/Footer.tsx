@@ -12,7 +12,7 @@ const Footer = () => {
                 <img className="h-8 w-auto" src="https://sitegpt.ai/cdn-cgi/imagedelivery/hQTLE0NTlcNyb_tOYFnnyA/e3888de9-3054-40f4-6699-889189a48500/square" alt="" />
               </a>
             </Link>
-            <p className=" font-normal text-gray-900 mt-6 text-base pr-6">
+            <p className=" font-normal text-gray-900 mt-6 text-base text-[1.07rem] pr-6">
               Instantly answer your visitor&apos;s questions with a personalized chatbot trained on your website content.
             </p>
             <div className="inline-flex items-center justify-center transition-all duration-150 mt-6 hover:-translate-y-1 hover:shadow-md lg:justify-start">
@@ -50,31 +50,31 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/pricing" legacyBehavior>
-                  <a className="isomorphic-link isomorphic-link--internal inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700">
+                  <a className="isomorphic-link isomorphic-link--internal inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700 text-[1.07rem]">
                     Pricing
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href="/blog" legacyBehavior>
-                  <a target="_blank" rel="noopener noreferrer" className="isomorphic-link isomorphic-link--external inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700">
+                  <a target="_blank" rel="noopener noreferrer" className="isomorphic-link isomorphic-link--external inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700 text-[1.07rem]">
                     Blog
                   </a>
                 </Link>
               </li>
               <li >
-                <a href="https://sitegpt.ai/docs/api-reference/getting-started" className="inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700" target="_blank" rel="noopener noreferrer">
+                <a href="https://sitegpt.ai/docs/api-reference/getting-started" className="inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700" target="_blank" rel="noopener noreferrer text-[1.07rem]">
                   API Docs
                 </a>
               </li>
               <li>
-                <a href="https://affiliates.sitegpt.ai/login" className="isomorphic-link isomorphic-link--external inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700" target="_blank" rel="noopener noreferrer">
+                <a href="https://affiliates.sitegpt.ai/login" className="isomorphic-link isomorphic-link--external inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700" target="_blank" rel="noopener noreferrer text-[1.07rem]">
                   Affiliates
                 </a>
               </li>
               <li>
                 <Link href="/partners" legacyBehavior>
-                  <a className="isomorphic-link isomorphic-link--internal inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700">
+                  <a className="isomorphic-link isomorphic-link--internal inline-flex text-base font-medium text-gray-900 transition-all duration-150 hover:translate-x-1 hover:text-gray-700 text-[1.07rem]">
                     Partners
                   </a>
                 </Link>

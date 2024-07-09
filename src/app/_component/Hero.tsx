@@ -67,8 +67,8 @@ const Hero = () =>  {
             </div>
           </div>
         </div>
-        <div className="mt-16 mb-4 p-2 flex items-center justify-center bg-blue-600 rounded-lg">
-          <div className="mt-6 min-h-full min-w-full">
+        <div className="px-4 sm:px-6 lg:px-8">
+          <div className="mt-16 w-screen h-screen relative left-1/2 right-1/2 -mx-[50vw]">
             <Video />
           </div>
         </div>

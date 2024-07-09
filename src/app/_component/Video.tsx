@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Video = () => {
     return (
-        <div className="flex justify-center w-full">
+        <div className="h-full w-full flex justify-center items-center">
             <Head>
             <script
                 src="https://fast.wistia.com/embed/medias/7x0n5t4hx2.jsonp"
@@ -16,7 +16,7 @@ const Video = () => {
             ></script> 
             </Head>
             <div
-                className="m-5 max-w-[90rem] w-full lg:w-[86%] "
+                className="m-5 max-w-[100rem] w-full lg:w-[86%] "
                 style={{
                 overflow: "hidden",
                 border: "2px solid rgba(255,255,255,0.75)",
@@ -27,11 +27,9 @@ const Video = () => {
                 }}
             >
                 <div
-                className="wistia_responsive_padding"
                 style={{ padding: "56.25% 0 0 0", position: "relative" }}
                 >
                 <div
-                    className="wistia_responsive_wrapper"
                     style={{
                     height: "100%",
                     left: 0,
@@ -45,7 +43,6 @@ const Video = () => {
                     style={{ height: "100%", position: "relative", width: "100%" }}
                     >
                     <div
-                        className="wistia_swatch"
                         style={{
                         height: "100%",
                         left: 0,

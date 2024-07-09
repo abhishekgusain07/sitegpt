@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Video = () => {
     return (
-        <div className='w-full h-full flex justify-center items-center'>
+        <div className='w-full h-full flex justify-center items-center object-cover'>
             <Head>
                 <script
                 src="https://fast.wistia.com/embed/medias/7x0n5t4hx2.jsonp"

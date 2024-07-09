@@ -1,20 +1,22 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 import Video from "./Video";
-
 
 const Benefits = ['Personalized onboarding help', 'Friendly pricing as you scale', '95+ languages supported', '7-day free trial', 'Cancel anytime'];
 const Companies = [
   {
     name: 'alignable',
     imageSrc: 'https://sitegpt.ai/images/customer-logos/alignable.png'
-  },{
+  },
+  {
     name: 'screen-binge',
     imageSrc: 'https://sitegpt.ai/images/customer-logos/screen-binge.png'
-  },{
+  },
+  {
     name: 'sheets-giggles',
     imageSrc: 'https://sitegpt.ai/images/customer-logos/sheets-giggles.png'
-  },{
+  },
+  {
     name: 'cbs-bahamas',
     imageSrc: 'https://sitegpt.ai/images/customer-logos/cbs-bahamas.png'
   },
@@ -22,10 +24,11 @@ const Companies = [
     name: 'link-research-tools',
     imageSrc: 'https://sitegpt.ai/images/customer-logos/link-research-tools.png'
   }
-]
-const Hero = () =>  {
-    return (
-        <section className="bg-gradient-to-b from-white to-blue-50 pb-12 pt-8 sm:pb-16 lg:pb-20">
+];
+
+const Hero = () => {
+  return (
+    <section className="bg-gradient-to-b from-white to-blue-50 pb-12 pt-8 sm:pb-16 lg:pb-20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-y-12 lg:grid-cols-2">
           <div className="max-w-xl mx-auto text-center lg:max-w-none lg:mx-0 lg:text-left">
@@ -67,14 +70,18 @@ const Hero = () =>  {
             </div>
           </div>
         </div>
-        <div className="mt-4 sm:mt-8">
-          <div className="mt-4 sm:mt-8 md:mt-16 w-full relative">
-            <div className="aspect-w-16 aspect-h-9 sm:aspect-h-7 md:aspect-h-9 lg:aspect-none lg:h-[calc(100vh-100px)]">
-              <Video />
+
+        <div className="mt-16 sm:mt-24">
+          <div className="mt-4 sm:mt-10 md:mt-16 w-full relative">
+            <div className="aspect-w-16 aspect-h-9 sm:aspect-h-7 md:aspect-h-9 lg:aspect-none lg:h-[calc(100vh-100px)] lg:w-full">
+              <div className="absolute inset-0">
+                <Video />
+              </div>
             </div>
           </div>
         </div>
-        <div className="max-w-5xl mx-auto  mt-8 sm:mt-16 text-center lg:mt-20">
+
+        <div className="max-w-5xl mx-auto mt-16 sm:mt-24 text-center lg:mt-32">
           <p className="text-base font-semibold text-gray-900">Trusted by these leading companies</p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 mt-4 sm:mt-6 lg:gap-x-8">
             {Companies.map((company, index) => (
@@ -91,6 +98,7 @@ const Hero = () =>  {
         </div>
       </div>
     </section>
-    )
-}
-export default Hero
+  );
+};
+
+export default Hero;

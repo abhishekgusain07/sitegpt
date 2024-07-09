@@ -17,7 +17,6 @@ export default function Home() {
     <div>
       <main>
         <Hero />
-        <Video />
         <Imagine />
         <Comparison />
         <HowItWorks /> 

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Video from "./Video";
 
 
 const Benefits = ['Personalized onboarding help', 'Friendly pricing as you scale', '95+ languages supported', '7-day free trial', 'Cancel anytime'];
@@ -64,6 +65,11 @@ const Hero = () =>  {
             <div className="aspect-[1/2] overflow-hidden ring-1 ring-blue-600 rounded-2xl sm:aspect-[3/4]">
               <iframe className="h-full w-full object-cover" src="https://widget.sitegpt.ai/c/360485494599975514?user_email=&user_email_signature=" title="SiteGPT Demo"></iframe>
             </div>
+          </div>
+        </div>
+        <div className="mt-16 mb-4 p-2 flex items-center justify-center bg-blue-600 rounded-lg">
+          <div className="mt-6 min-h-full min-w-full">
+            <Video />
           </div>
         </div>
         <div className="max-w-5xl mx-auto mt-16 text-center lg:mt-20">

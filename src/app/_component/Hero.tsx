@@ -71,7 +71,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-16 sm:mt-24">
+        <div className="mt-20 sm:mt-28">
           <div className="mt-4 sm:mt-10 md:mt-16 w-full relative">
             <div className="aspect-w-16 aspect-h-9 sm:aspect-h-7 md:aspect-h-9 lg:aspect-none lg:h-[calc(100vh-100px)] lg:w-full">
               <div className="absolute inset-0">
@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto mt-16 sm:mt-24 text-center lg:mt-32">
+        <div className="max-w-5xl mx-auto mt-20 sm:mt-24 text-center lg:mt-32">
           <p className="text-base font-semibold text-gray-900">Trusted by these leading companies</p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-3 mt-4 sm:mt-6 lg:gap-x-8">
             {Companies.map((company, index) => (

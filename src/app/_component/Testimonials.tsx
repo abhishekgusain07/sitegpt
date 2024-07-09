@@ -8,7 +8,7 @@ interface TestimonialProps {
 }
 
 const Testimonial = ({ quote, name, title, imageSrc }:TestimonialProps) => (
-  <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start">
+  <div className="flex flex-col  items-center gap-6 sm:flex-row sm:items-start">
     <img className="h-20 w-20 shrink-0 bg-gray-200 object-cover shadow-sm rounded-full" src={imageSrc} alt={name} />
     <div>
       <blockquote>

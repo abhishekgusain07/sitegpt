@@ -21,14 +21,14 @@ const BeforeCard = () => {
       <div className="bg-white shadow-lg ring-2 ring-inset ring-gray-200 rounded-2xl">
         <div className="p-8 sm:p-12">
           <CardHeader icon={<BeforeIcon />} text="Before" />
-          <h3 className="font-display text-2xl font-bold tracking-tight text-gray-900 mt-4 sm:text-3xl">
+          <h3 className="font-display text-2xl font-semibold tracking-tight text-gray-900 mt-4 sm:text-3xl">
             Fickle, one-size-fits-all chatbots that do more harm than good
           </h3>
           <ul className="text-base text-gray-900 mt-6 space-y-3 sm:text-lg">
-            <li>Generic GPT tools don&apos;t answer based on your training data</li>
-            <li>Custom-built bots are finicky and difficult to maintain</li>
-            <li>Customer support staff takes 3+ months to train</li>
-            <li>Bogged down with support tickets</li>
+          <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Generic GPT tools don't answer based on your training data</li>
+          <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Custom-built bots are finicky and difficult to maintain</li>
+          <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Customer support staff takes 3+ months to train</li>
+          <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Bogged down with support tickets</li>
           </ul>
         </div>
       </div>

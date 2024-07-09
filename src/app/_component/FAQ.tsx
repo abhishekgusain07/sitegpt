@@ -267,46 +267,52 @@ const FAQ  = () => {
           </nav>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-16 gap-y-5 mt-8 lg:grid-cols-2">
-          {faqs
-            .filter((faq) => faq.category === activeCategory)
-            .map((faq, index) => (
-              <div className='realtive' key={index}>
-                <div key={index} className="flow-root">
-                  <div className="divide-gray-200 -my-6 divide-y">
-                    <div className="relative py-6">
-                      <details className="menu-details peer cursor-pointer transition-all duration-150 group">
-                        <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-gray-900 pr-16">
-                          {faq.question}
-                          <span className="absolute right-0 top-0 py-7 pl-7 pr-0">
-                            <svg
-                              aria-hidden="true"
-                              className="h-5 w-5 transition-transform group-open:rotate-180"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                              viewBox="0 0 256 256"
-                            >
-                              <path d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z" />
-                            </svg>
-                          </span>
-                        </summary>
-                        <div className="mt-4">
-                          <p className="text-base text-gray-600">
-                            <span className='text-base leading-7'>
-                            {faq.answer}
-                            </span>
-                          </p>
-                        </div>
-                      </details>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-        </div>
+        <div className="grid grid-cols-1 gap-x-16 gap-y-5 mt-8 lg:grid-cols-2 auto-rows-fr">
+        {faqs
+          .filter((faq) => faq.category === activeCategory)
+          .map((faq, index) => (
+            <FAQItem key={index} question={faq.question} answer={faq.answer} />
+          ))}
+      </div>
       </div>
     </section>
   );
 };
 
+const FAQItem = ({ question, answer }: { question: string; answer: string | React.JSX.Element }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="relative py-2">
+      <details
+        className="group px-6"
+        open={isOpen}
+        onClick={(e) => {
+          e.preventDefault();
+          setIsOpen(!isOpen);
+        }}
+      >
+        <summary className="flex cursor-pointer items-center justify-between text-lg font-medium text-gray-900">
+          {question}
+          <span className="ml-6 flex h-7 items-center">
+            <svg
+              className={`h-5 w-5 transform transition-transform duration-300 ${
+                isOpen ? 'rotate-180' : ''
+              }`}
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </span>
+        </summary>
+        <div className={`mt-3 pr-12 absolute bg-white z-10 w-full max-h-60 overflow-y-auto ${isOpen ? 'block' : 'hidden'}`}>
+          <p className="text-base text-gray-600">{answer}</p>
+        </div>
+      </details>
+      <div className='h-[1px] w-full bg-gray-300 text-muted-foreground mt-3'/>
+    </div>
+  );
+};
 export default FAQ;

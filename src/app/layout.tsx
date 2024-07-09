@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "SiteGPT - Make AI your expert customer support agent",
   description: "abhishek gusain",
+  
 };
 
 export default function RootLayout({

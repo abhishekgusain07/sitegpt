@@ -1,22 +1,21 @@
 import Head from "next/head"
 import Image from "next/image"
-import Link from "next/link"
 
 const Video = () => {
     return (
-        <div className="h-full w-full flex justify-center items-center">
+        <div className='w-full h-full flex justify-center items-center'>
             <Head>
-            <script
+                <script
                 src="https://fast.wistia.com/embed/medias/7x0n5t4hx2.jsonp"
                 async
-            ></script>
-            <script
+                ></script>
+                <script
                 src="https://fast.wistia.com/assets/external/E-v1.js"
                 async
-            ></script> 
+                ></script> 
             </Head>
             <div
-                className="m-5 max-w-[100rem] w-full lg:w-[86%] "
+                className="w-full h-full"
                 style={{
                 overflow: "hidden",
                 border: "2px solid rgba(255,255,255,0.75)",
@@ -26,9 +25,7 @@ const Video = () => {
                 zIndex: 50,
                 }}
             >
-                <div
-                style={{ padding: "56.25% 0 0 0", position: "relative" }}
-                >
+                <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
                 <div
                     style={{
                     height: "100%",
@@ -68,12 +65,11 @@ const Video = () => {
                         aria-hidden="true"
                         />
                     </div>
+                    </div>
                 </div>
                 </div>
-            </div>
             </div>
         </div>
     )
 }
-
 export default Video

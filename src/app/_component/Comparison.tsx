@@ -25,7 +25,7 @@ const BeforeCard = () => {
             Fickle, one-size-fits-all chatbots that do more harm than good
           </h3>
           <ul className="text-base text-gray-900 mt-6 space-y-3 sm:text-lg">
-          <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Generic GPT tools don't answer based on your training data</li>
+          <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Generic GPT tools don&apos;t answer based on your training data</li>
           <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Custom-built bots are finicky and difficult to maintain</li>
           <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Customer support staff takes 3+ months to train</li>
           <li className="flex items-start gap-3"><div className="shrink-0 py-1.5"><svg className="h-3 w-3 fill-error-200" viewBox="0 0 6 6" aria-hidden="true"><circle cx="3" cy="3" r="3"></circle></svg></div>Bogged down with support tickets</li>

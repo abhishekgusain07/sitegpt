@@ -310,8 +310,8 @@ const FAQItem = ({ question, answer }: { question: string; answer: string | Reac
         <div className={`mt-3 pr-12 absolute bg-white z-10 w-full max-h-60 overflow-y-auto ${isOpen ? 'block' : 'hidden'}`}>
           <p className="text-base text-gray-600">{answer}</p>
         </div>
+        <div className='h-[1px] w-full bg-gray-300 text-muted-foreground mt-3'/>
       </details>
-      <div className='h-[1px] w-full bg-gray-300 text-muted-foreground mt-3'/>
     </div>
   );
 };

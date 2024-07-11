@@ -42,7 +42,7 @@ const Hero = () => {
             <h1 className="font-display text-4xl font-bold tracking-wide text-gray-900 mt-8 sm:text-5xl lg:text-6xl xl:pr-12">
               Make <span className="text-blue-600">AI</span> your expert customer <span className="text-blue-600">support agent</span>
             </h1>
-            <p className="text-base font-normal text-gray-700 mt-5 sm:text-lg lg:text-xl px-4">
+            <p className="text-base font-normal text-gray-700 mt-5 sm:text-lg lg:text-xl pr-5 text-[1.07rem] tracking-wide">
               It&apos;s like having ChatGPT specifically for your SaaS product. Instantly answer your visitor&apos;s questions with a personalized chatbot trained on your website content.
             </p>
             <ul className="flex flex-col justify-center gap-x-6 gap-y-3 text-sm font-medium text-gray-900 mt-6 sm:flex-row sm:flex-wrap sm:mt-8 lg:justify-start">

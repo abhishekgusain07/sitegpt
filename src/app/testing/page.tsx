@@ -47,7 +47,7 @@ const ChatInterface = () => {
 
           <div className="rounded-xl shadow-sm border bg-white">
             <Link href="https://elephant.ai/auth/signup" target="_blank" className="flex gap-1 no-underline items-center justify-between p-2 text-sm leading-[21px] overflow-hidden rounded-lg m-2 text-black bg-white">
-              <p>Want to Create an Assistant Like This for Your Website? Sign Up Here (It's FREE)</p>
+              <p>Want to Create an Assistant Like This for Your Website? Sign Up Here (It&apos;s FREE)</p>
               <div className="m-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" color="#1219f3">
                   <path fill="#1219f3" fillRule="evenodd" d="M3 3.7h4V2H3a2 2 0 00-2 2v8a2 2 0 002 2h10a2 2 0 002-2v-2h-1.7v2a.3.3 0 01-.3.3H3a.3.3 0 01-.3-.3V4a.3.3 0 01.3-.3zM9.218 3c0 .47.38.85.85.85h1.88L8.296 7.502a.85.85 0 001.202 1.202l3.652-3.652v1.88a.85.85 0 001.7 0V3a.85.85 0 00-.85-.85h-3.932a.85.85 0 00-.85.85z" clipRule="evenodd"></path>

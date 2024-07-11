@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import Wrapper from "./_component/Wrapper";
-import FixedOverlay from "./_component/FixedOverlay";
-import Header from "./_component/Header";
-import Footer from "./_component/Footer";
+import "../globals.css";
+import Wrapper from "../_component/Wrapper";
+import FixedOverlay from "../_component/FixedOverlay";
+import Header from "../_component/Header";
+import Footer from "../_component/Footer";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });

@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
           <div className="xl:px-16">
             <div className="aspect-[1/2] overflow-hidden ring-1 ring-blue-600 rounded-2xl sm:aspect-[3/4]">
-              <iframe className="h-full w-full object-cover" src="https://widget.sitegpt.ai/c/360485494599975514?user_email=&user_email_signature=" title="SiteGPT Demo"></iframe>
+              <iframe className="h-full w-full object-cover" src="https://bot.elephant.ai/7b016f11-eda7-47f6-9dd7-2710420209e1?iframe=true" title="SiteGPT Demo"></iframe>
             </div>
           </div>
         </div>
